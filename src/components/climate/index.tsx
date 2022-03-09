@@ -31,7 +31,7 @@ export const Climate = () => {
         let inputLocal = document.getElementsByTagName('input')[0].value;
         if(inputLocal !== ''){
             setLoading(true);
-            let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(inputLocal)}&APPID=c561d9a1f600861e459ca18081cab54e&units=metric&lang=pt_br`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(inputLocal)}&APPID={null}&units=metric&lang=pt_br`;
             setLoading(false);
             
             let results = await fetch(url);
