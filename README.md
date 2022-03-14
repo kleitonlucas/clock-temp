@@ -1,4 +1,4 @@
-# Aplicação de Relógio e Temp
+# Aplicação de Relógio e Tempo
 
 <p align="center">Aplicação que mostra a hora e o tempo de uma cidade.</p>
 <p align="center">Projeto desenvolvido com o intuito de praticar os conhecimentos em React JS com Typescript e consultas a API</p>
@@ -13,6 +13,12 @@
 - Typescript
 - Styled Components
 - API
+
+### Instalação
+- `npm install`
+
+### Executar
+- `npm run dev`
 
 _____________________________________________________________
 Kleiton Lucas<br/>
